@@ -1,6 +1,6 @@
-package app.bizibee.jpawithtestcontainers;
+package com.jpawithtestcontainers;
 
-import app.bizibee.jpawithtestcontainers.model.Customer;
+import com.jpawithtestcontainers.model.Customer;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;

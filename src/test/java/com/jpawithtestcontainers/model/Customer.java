@@ -1,4 +1,4 @@
-package app.bizibee.jpawithtestcontainers.model;
+package com.jpawithtestcontainers.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

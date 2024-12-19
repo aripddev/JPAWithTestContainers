@@ -9,8 +9,8 @@
     
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <jakartaee>10.0.0</jakartaee>
-    <maven.compiler.release>17</maven.compiler.release>
+    <jakartaee>11.0.0-M4</jakartaee>
+    <maven.compiler.release>21</maven.compiler.release>
   </properties>
     
   <dependencyManagement>
@@ -72,23 +72,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-    
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
-        <configuration>
-          <source>11</source>
-          <target>11</target>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.3.2</version>
-      </plugin>
-    </plugins>
-  </build>
 </project>

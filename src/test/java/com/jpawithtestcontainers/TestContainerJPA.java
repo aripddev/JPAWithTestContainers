@@ -24,7 +24,7 @@ public class TestContainerJPA {
   private Customer initialUser;
 
   @Container
-  private static final PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:15.3")
+  private static final PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:17.6")
           .withDatabaseName("testdb")
           .withUsername("root")
           .withPassword("password");
